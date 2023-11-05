@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-03T00:35:29 PKT" name="TestIntegrationSuite" finished-at="2023-11-03T00:35:40 PKT" duration-ms="11169">
+    <groups>
+    </groups>
+    <test started-at="2023-11-03T00:35:29 PKT" name="Test" finished-at="2023-11-03T00:35:40 PKT" duration-ms="11169">
+      <class name="test.SauceDemoLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SauceDemoLoginPageTest@5f780a86]" started-at="2023-11-03T00:35:28 PKT" name="setUp" finished-at="2023-11-03T00:35:29 PKT" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin(java.lang.String)[pri:0, instance:test.SauceDemoLoginPageTest@5f780a86]" started-at="2023-11-03T00:35:29 PKT" name="invalidLogin" finished-at="2023-11-03T00:35:39 PKT" duration-ms="10135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="validLogin()[pri:0, instance:test.SauceDemoLoginPageTest@5f780a86]" started-at="2023-11-03T00:35:39 PKT" name="validLogin" finished-at="2023-11-03T00:35:40 PKT" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.SauceDemoLoginPageTest@5f780a86]" started-at="2023-11-03T00:35:40 PKT" name="tearDownTest" finished-at="2023-11-03T00:35:45 PKT" duration-ms="5384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SauceDemoLoginPageTest@5f780a86]" started-at="2023-11-03T00:35:45 PKT" name="tearDown" finished-at="2023-11-03T00:35:46 PKT" depends-on-methods="test.SauceDemoLoginPageTest.tearDownTest" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SauceDemoLoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestIntegrationSuite -->
+</testng-results>

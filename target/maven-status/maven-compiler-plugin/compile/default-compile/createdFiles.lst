@@ -1,0 +1,6 @@
+general\BaseTest.class
+config\ConfigProperties.class
+general\DBTest.class
+config\ApplicationConfigReader.class
+utils\ExtentReportListener.class
+utils\GenericFunctions.class
